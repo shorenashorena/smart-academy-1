@@ -1,0 +1,29 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+}
+
+.btn {
+  background-color: green;
+  color: blue;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: red;
+  color: blue;
+}
